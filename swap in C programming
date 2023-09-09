@@ -1,0 +1,15 @@
+#include <stdio.h>
+int swap(int a,int b)
+{
+    int m;
+    m=a;
+    a=b;
+    b=m;
+    printf("%d %d",a,b);
+}
+int main()
+{
+    int p,q;
+    scanf("%d %d",&p,&q);
+    swap(p,q);
+}
